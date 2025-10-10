@@ -1,0 +1,45 @@
+
+.test-div{
+background: orange;
+padding: 20px;
+margin: 20px;
+}
+
+.test-div{color: blue;}
+
+.test-div h2{  
+
+color:rgb(214, 29, 29);
+
+}
+
+.test-div:hover {
+background: pink;
+
+
+}
+
+button.special {
+
+background: white;
+
+
+}
+
+.special {
+
+background: yellow;
+
+
+}
+
+
+#house {
+display: flex;
+flex-direction: 
+row;
+
+
+}
+
+
