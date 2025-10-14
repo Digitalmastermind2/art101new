@@ -1,0 +1,19 @@
+#land1 {width: 700;}
+#land2{width: 700;}
+#land3{width: 700;}
+H1, H2, H3 {color: #ffffff; font-family:'Courier New', Courier, monospace;}
+title, p {color: #ffffff; font-family:'Courier New', Courier, monospace;}
+BODY { background: #00072d; padding: 50px;}
+.ti1{background:purple;}
+.ln1{font-family:'helvetica', sans-serif ;}
+img {
+  border: 15px solid #f85757;
+}
+
+.boxes {
+  background-color: rgb(0, 0, 0);
+  width: 300px;
+  border: 15px solid #f85757;
+  padding: 50px;
+  margin: 20px;
+}
