@@ -1,21 +1,21 @@
 
-let totalNumber = 0;
+let count = 0;
+
+let colors = ["Orchid", "Coral", "HotPink", "Plum"]; // new line to add
 
 
-
-
-// add a button titled click me
 
 $("#needy-button").click( function(){
 
-totalNumber = totalNumber + 3;
 
+let reminder=count % colors.length;
 
-let sentence = "Click! ";
-let totalNumberbox= sentence + totalNumber;
+$("#needy-button").html("Clicks: " + count
+    + " Color: " + colors[count] );
 
+$("body").css("background-color", colors[reminder]);
 
-$("#needy-button").html(totalNumberbox);
+count = count + 1;
 
 });
 
