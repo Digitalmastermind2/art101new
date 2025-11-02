@@ -1,7 +1,7 @@
 var count = 0;
 let colorCount = 0;
 var colors = ["Orchid", "Coral", "HotPink", "Plum"];
-
+var audio = document.getElementById("button-audio");
 
 function makeImage(imageName){
 
@@ -45,6 +45,10 @@ $("#needy-button").click(function () {
    $("#needy-button").html("Clicks: " + count + " Color: " + colors[colorCount] + " " + moodMessage);
 
    $("body").css("background-color", colors[colorCount]);
+
+   var audio = document.getElementById("button-audio");
+   audio.play();
+   changeBackground( colors[colorCount] );
 
 
 changeBackground(colors[colorCount]);
