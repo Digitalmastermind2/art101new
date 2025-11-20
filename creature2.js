@@ -8,14 +8,10 @@ $("#add-creature").click(
         let crEyesNum= $("#crEyesNum").val();
         let crEyesHTML="";
         
-
-
-
         for (let i=0; i < crEyesNum  ; i++){
              crEyesHTML=crEyesHTML + "<div class=eye>.</div>";
     
         }
-       
 
         // check for the field value do not add empty ones
         if ( (crName == "") || (crName.length>12) ) { // do nothing 
@@ -27,6 +23,7 @@ $("#add-creature").click(
     ">${crEyesHTML}</div>
     <div class="creature-info">${crName}</div>
 </div>
+<p id="MD">Pets?</p>
 `);
         }
 
@@ -37,4 +34,10 @@ $("#add-creature").click(
 
     });
 
+$("#creature-list").click(function() {
+  $("#MD").text("Aooooo!");
+});
 
+$("#creature-list").on("dblclick", function(){
+  $(this).hide();
+});
