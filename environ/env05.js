@@ -7,7 +7,7 @@ list1a = "<p>This place offers: " + thingsToDo[3] + ", " + thingsToDo[4] + ", an
 $("#output1").html(list1a);
 
 
-let list2b
+let list2b;
 
 list2b = "<p>This place offers: " + thingsToDo[0] + ", " + thingsToDo[3] + ", and " + thingsToDo[5];
 
@@ -16,14 +16,15 @@ $("#output2").html(list2b);
 
 let list3c;
 
-list3c = "<p>This place offers: " + thingsToDo[0] + ", " + thingsToDo[2] + ", " + thingsToDo[5] + ", " + thingsToDo[1] + ", and " + thingsToDo[4];
+list3c = "<p>This place offers: " + thingsToDo[0] + ", " + thingsToDo[2] + ", " + thingsToDo[5] + ", " + thingsToDo[1] + ", and " + 
+thingsToDo[4];
 
 $("#output3").html(list3c)
 
 
 
 $("#ety-buttona").click(function(){
-    $("#defoutputa").html("<p>Nahuatl: Axolotla</p>")
+    $("#defoutputa").html("<p>Nahuatl: Acalohpan</p>")
 })
 
 
@@ -52,6 +53,7 @@ $(".ln1").hover(function(){
 
     $("#cityButtonb").click(function(){
     $(".cyswb").toggle();
+
   });
 
    $("#cityButtonc").click(function(){
